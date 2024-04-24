@@ -1,7 +1,6 @@
 import "./styles.css"
 import { z } from "zod"
 
-console.log("Hello, World!")
 let errorMessage = ""
 
 const formEl = document.querySelector(".form")
