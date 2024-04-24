@@ -30,6 +30,11 @@
   list-style: none;
 }
 
+*:focus-visible {
+  outline: 2px dotted var(--clr-primary-700);
+  outline-offset: 2px;
+}
+
 img,
 svg {
   display: block;
@@ -48,6 +53,8 @@ button {
   --clr-primary-200: #f2f2f2;
   --clr-primary-700: #4c7bf3;
   --clr-primary-900: #15202a;
+
+  --clr-secondary-400: #ff5466;
 
   --clr-neutral-100: rgba(76, 123, 243, 0.15);
   --clr-neutral-200: #c2d3ff; /* email input border */
@@ -82,6 +89,15 @@ button {
 
 .grid {
   display: grid;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 /* --------------- End of Utility Classes --------------- */
 
@@ -149,6 +165,11 @@ body {
   color: var(--clr-neutral-300);
 }
 
+.input-email-error {
+  border-color: var(--clr-secondary-400);
+  outline-color: var(--clr-secondary-400);
+}
+
 .btn-notify {
   display: block;
   width: 100%;
@@ -164,6 +185,12 @@ body {
 .btn-notify:hover {
   cursor: pointer;
   background-color: var(--clr-neutral-700);
+}
+
+.error {
+  font-size: var(--fs-100);
+  color: var(--clr-secondary-400);
+  margin-bottom: 14px;
 }
 
 .hero-img {
@@ -245,6 +272,12 @@ body {
   .btn-notify {
     flex-shrink: 2;
     padding: 18px;
+  }
+
+  .error {
+    grid-row: 2;
+    text-align: left;
+    margin-bottom: 0;
   }
 
   .hero-img {
