@@ -23,12 +23,14 @@ formEl.addEventListener("submit", (event) => {
   if (!validationResult.success) {
     const validationResultFormatted = validationResult.error.format()
     errorMessage = validationResultFormatted.email?._errors.join(", ")
+    errorTextEl.classList.remove("visually-hidden")
     emailInputEl.focus()
     emailInputEl.setAttribute("aria-invalid", true)
     emailInputEl.classList.add("input-email-error")
   } else {
     errorMessage = ""
     emailInputEl.value = ""
+    errorTextEl.classList.add("visually-hidden")
     emailInputEl.blur()
     emailInputEl.setAttribute("aria-invalid", false)
     emailInputEl.classList.remove("input-email-error")
