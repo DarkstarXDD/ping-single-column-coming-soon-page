@@ -59,6 +59,7 @@ button {
   --clr-neutral-200: #c2d3ff; /* email input border */
   --clr-neutral-300: #b8c7ed; /* email placeholder */
   --clr-neutral-400: #767676;
+  --clr-neutral-600: rgba(76, 106, 243, 0.35); /* box shadow */
   --clr-neutral-700: rgba(76, 106, 243, 0.7);
 
   --ff-libre-franklin: "Libre Franklin", sans-serif;
@@ -156,7 +157,7 @@ body {
   background-color: var(--clr-primary-100);
   border: 0.0625rem solid var(--clr-neutral-200);
   border-radius: 28px;
-  padding: 0.75rem 1.25rem;
+  padding: 0.75rem 2rem;
 }
 
 .input-email::placeholder {
@@ -178,6 +179,7 @@ body {
   background-color: var(--clr-primary-700);
   border: none;
   border-radius: 28px;
+  box-shadow: 0 8px 20px var(--clr-neutral-600);
   padding: 0.75rem;
 }
 
@@ -265,7 +267,7 @@ body {
   }
 
   .input-email {
-    padding: 1.125rem 1.25rem;
+    padding: 1.125rem 2rem;
   }
 
   .btn-notify {
