@@ -265,12 +265,10 @@ body {
   }
 
   .input-email {
-    flex-shrink: 1;
     padding: 1.125rem 1.25rem;
   }
 
   .btn-notify {
-    flex-shrink: 2;
     padding: 1.125rem;
   }
 
