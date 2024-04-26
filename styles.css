@@ -2,24 +2,24 @@
   font-family: "Libre Franklin";
   font-weight: 300;
   src: local("LibreFranklin-Light"),
-    url("fonts/libre-franklin-v14-latin-300.woff2"),
-    url("fonts/libre-franklin-v14-latin-300.woff");
+    url("assets/fonts/libre-franklin-v14-latin-300.woff2"),
+    url("assets/fonts/libre-franklin-v14-latin-300.woff");
 }
 
 @font-face {
   font-family: "Libre Franklin";
   font-weight: 600;
   src: local("LibreFranklin-SemiBold"),
-    url("fonts/libre-franklin-v14-latin-600.woff2"),
-    url("fonts/libre-franklin-v14-latin-600.woff");
+    url("assets/fonts/libre-franklin-v14-latin-600.woff2"),
+    url("assets/fonts/libre-franklin-v14-latin-600.woff");
 }
 
 @font-face {
   font-family: "Libre Franklin";
   font-weight: 700;
   src: local("LibreFranklin-Bold"),
-    url("fonts/libre-franklin-v14-latin-700.woff2"),
-    url("fonts/libre-franklin-v14-latin-700.woff");
+    url("assets/fonts/libre-franklin-v14-latin-700.woff2"),
+    url("assets/fonts/libre-franklin-v14-latin-700.woff");
 }
 
 /* --------------- CSS Reset --------------- */
