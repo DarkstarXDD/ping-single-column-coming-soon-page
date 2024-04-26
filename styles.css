@@ -50,7 +50,7 @@ button {
 /* --------------- CSS Variables --------------- */
 :root {
   --clr-primary-100: #ffffff;
-  --clr-primary-700: #4c7bf3;
+  --clr-primary-700: #4c6af3;
   --clr-primary-900: #15202a;
 
   --clr-secondary-400: #ff5466;
@@ -58,8 +58,8 @@ button {
   --clr-neutral-100: rgba(76, 123, 243, 0.15);
   --clr-neutral-200: #c2d3ff; /* email input border */
   --clr-neutral-300: #b8c7ed; /* email placeholder */
-  --clr-neutral-400: #969696;
-  --clr-neutral-700: rgba(76, 123, 243, 0.7);
+  --clr-neutral-400: #767676;
+  --clr-neutral-700: rgba(76, 106, 243, 0.7);
 
   --ff-libre-franklin: "Libre Franklin", sans-serif;
 
